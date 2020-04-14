@@ -30,7 +30,7 @@ function go() {
 
   const getRedirect = path =>
     `
-${path}/        ${path}/list              302!
+${path}/        ${path}/discover          302!
 ${path}/*       ${path}/index.html        200
   `.trim()
 
